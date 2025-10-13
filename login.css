@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+#main-section{
+    height:800px;
+    width: 100%;
+    background: linear-gradient(to bottom, #434343, #181818);
+
+}
+#main-section .main-box{
+    position: relative;
+    left: 400px;
+    top: 30px;
+    height: 700px;
+    width: 700px;
+    background-color: #121212;
+    border-radius: 8px;
+}
+#main-section .main-box img{
+    position: relative;
+    left: 330px;
+    top: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}   
+#main-section .main-box h1{
+   position: absolute;
+   left: 230px;
+   top: 80px;
+   color: #fff;
+   font-size: 32px;
+   line-height: 1.5;
+}
+#main-section .main-box .google{
+    position: relative;
+    left: 150px;
+    top: 140px;
+    width: 330px;
+    height: 50px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background-color:transparent;
+}
+#main-section .main-box .google:hover{
+    cursor: pointer;
+    border: 2px solid gray;
+}
+#main-section .main-box .facebook:hover{
+    cursor: pointer;
+    border: 2px solid gray;
+}
+#main-section .main-box .apple:hover{
+    cursor: pointer;
+    border: 2px solid gray;
+}
+#main-section .main-box .phone:hover{
+    cursor: pointer;
+    border: 2px solid gray;
+}
+#main-section .main-box .google span{
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+#main-section .main-box .google img{
+    position: relative;
+    top: 4px  ;
+    left: -50px;
+    /* color:linear-gradient(90deg,#4285F4,#EA4335,#FBBC05,#34A853); */
+    
+}
+#main-section .main-box .facebook img{
+    position: relative;
+    top: 4px  ;
+    left: -43px;
+    height: 32px;
+    width: 50px;
+}
+#main-section .main-box .facebook span{
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+#main-section .main-box .apple img{
+    position: relative;
+    top: -2px  ;
+    left: -53px;
+    width: 50px;
+    height: 50px;
+}
+#main-section .main-box .apple span{
+    position: relative;
+    left: -30px;
+    top: -20px;
+}
+#main-section .main-box .facebook{
+    position: relative;
+    left: 195px;
+    top: 150px;
+    width: 330px;
+    height: 50px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background-color:transparent;
+}
+#main-section .main-box .apple{
+    position: relative;
+    left: 195px;
+    top: 160px;
+    width: 330px;
+    height: 50px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background-color: transparent;
+}
+#main-section .main-box .phone{
+    position: relative;
+    left: 195px;
+    top: 170px;
+    width: 330px;
+    height: 50px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background-color: transparent;
+}
+#main-section p{
+    position: relative;
+    left: 210px;
+    top: 250px;
+    color: #fff;
+}
+#main-section .input{
+    position: relative;
+    left: 210px;
+    top: 250px;
+    width: 300px;
+    padding-left: 20px;
+    font-size: 16px;
+    height: 50px;
+    color: #ffffff; 
+    background: transparent;
+    border: 1px solid gray;
+}
+#main-section .input:hover{
+    cursor: pointer;
+    border: 2px solid gray;
+}
+#main-section .main-box .Continue{
+    position: relative;
+    left: 195px;
+    top: 270px;
+    width: 330px;
+    height: 50px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background-color:#1Ed760;
+}
+#main-section .main-box .Continue:hover{
+    cursor: pointer;
+    border: 2px solid #1Ed760;
+    background-color:#4fdf81;
+    transform: translateY(-2px);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+#main-section .last-p{
+    position: relative;
+    left: 210px;
+    top: 300px;
+    color:gray;
+}
+#main-section .last-p a{
+    color: #fff;
+    font-size: 16px;
+}
+#main-section .last-p a:hover{
+    cursor: pointer;
+    color:#4fdf81;
+}
+#main-section .last-box{
+    position: relative  ;
+    left: 0;
+    top: 50px;
+    height: 80px;
+    width: 100%;
+    background-color: #121212;
+}
+#main-section .last-box h3{
+    position: absolute;
+    left:460px;
+    top: 35px;
+    font-size: 13px;
+    color:gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-section .last-box h3 span{
+    color: gray;
+    text-decoration: underline;
+    
+}
